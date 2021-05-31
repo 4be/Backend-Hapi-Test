@@ -1,4 +1,4 @@
-const notes = require("./notes");
+const notes = require("./books");
 const { nanoid } = require("nanoid");
 const addNoteHandler = (request, h) => {
   const { title, tags, body } = request.payload;
